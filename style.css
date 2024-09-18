@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF2D7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin: auto;
+    padding: 20px;
+    text-shadow:  1px 1px 3px #F98866;
+}
+
+form{
+    margin: auto;
+    border: 1.4px solid black;
+    padding: 40px;
+    background-color: wheat;
+}
+
+label{
+    padding-right: 10px;
+}
+
+button{
+    background-color: #fc501c;
+    color: white;
+    font-weight: bold;
+    border: 1.4px solid black;
+    padding: 12px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: #ff602f;
+    cursor: pointer;
+}
+
